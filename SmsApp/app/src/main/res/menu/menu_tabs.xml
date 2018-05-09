@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.project.sms.app.Tabs">
+    <item
+        android:id="@+id/action_money"
+        android:title="Money"
+        android:orderInCategory="100"
+        android:icon="@drawable/dropbox"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_inbox"
+        android:title="Inbox"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_sent"
+        android:title="Sent"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+</menu>
